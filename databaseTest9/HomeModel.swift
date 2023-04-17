@@ -18,7 +18,7 @@ class HomeModel: NSObject, URLSessionDataDelegate {
     
     weak var delegate: HomeModelProtocol!
     
-    let urlPath = "http://test-postnord.dk/service.php" //this will be changed to the path where service.php lives
+    let urlPath = "http://test-postnord.dk/service.php"
  
     func downloadItems() {
         
